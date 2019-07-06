@@ -18,6 +18,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds
 
 # common loganxx
-$(call inherit-product, device/samsung/bcm-common/loganxx.mk)
+$(call inherit-product, device/samsung/bcm-common/vivaltods5m.mk)
 
 $(call inherit-product, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
